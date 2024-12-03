@@ -6,10 +6,10 @@
     "dev": "NODE_ENV=development nodemon index.js",
     "start": "NODE_ENV=production node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "express", "mongoose", "api", "cibertec", "frontend"],
+  "author": "Manuel Del Pozo",
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
   "description": "This is a basic CRUD application for managing users, designed as part of the Cibertec Frontend course.",
   "dependencies": {
     "cookie-parser": "^1.4.7",
