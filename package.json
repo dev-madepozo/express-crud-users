@@ -1,10 +1,10 @@
 {
   "name": "cibertec-users-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon index.js",
-    "start": "NODE_ENV=production node index.js"
+    "dev": "NODE_ENV=development nodemon src/index.js",
+    "start": "NODE_ENV=production node src/index.js"
   },
   "keywords": ["node", "express", "mongoose", "api", "cibertec", "frontend"],
   "author": "Manuel Del Pozo",
