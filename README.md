@@ -147,7 +147,7 @@ The following API endpoints are available:
     }
     ```
 
-### 4. `PUT /api/users/:userId`
+### 4. `PUT /api/v1/users/:userId`
 
 - **Description**: Update a user's information.
 - **Request Body**:
@@ -176,7 +176,7 @@ The following API endpoints are available:
     }
     ```
 
-### 5. `DELETE /api/users/:id`
+### 5. `DELETE /api/v1/users/:id`
 
 - **Description**: Delete a user by ID.
 - **Response**:
