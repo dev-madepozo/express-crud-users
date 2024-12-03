@@ -1,6 +1,8 @@
 # Cibertec crud users
 
-This is a basic CRUD application for managing users, designed as part of the Cibertec Frontend course."
+This is a basic CRUD application for managing users, designed as part of the Cibertec Frontend course.
+
+*Deployed in*: [`api/v1/users`](https://cibertec-crud-users.onrender.com/api/v1/users)
 
 ## About
 
