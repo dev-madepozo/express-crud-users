@@ -1,0 +1,24 @@
+{
+  "name": "cibertec-users-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "This is a basic CRUD application for managing users, designed as part of the Cibertec Frontend course.",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.6",
+    "nodemon": "^3.1.7"
+  }
+}
