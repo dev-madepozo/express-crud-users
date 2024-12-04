@@ -176,7 +176,7 @@ The following API endpoints are available:
     }
     ```
 
-### 5. `DELETE /api/v1/users/:id`
+### 5. `DELETE /api/v1/users/:userId`
 
 - **Description**: Delete a user by ID.
 - **Response**:
