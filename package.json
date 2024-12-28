@@ -6,7 +6,14 @@
     "dev": "NODE_ENV=development nodemon src/index.js",
     "start": "NODE_ENV=production node src/index.js"
   },
-  "keywords": ["node", "express", "mongoose", "api", "cibertec", "frontend"],
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "api",
+    "cibertec",
+    "frontend"
+  ],
   "author": "Manuel Del Pozo",
   "type": "module",
   "license": "MIT",
@@ -15,7 +22,7 @@
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "express": "^4.21.1",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.8.3",
   },
   "devDependencies": {
     "dotenv": "^16.4.6",
