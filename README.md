@@ -1,12 +1,13 @@
 # Cibertec crud users
 
-This is a basic CRUD application for managing users, designed as part of the Cibertec Frontend course.
+This is a basic CRUD application for managing users and products, designed as part of the Cibertec Frontend course.
 
-*Deployed in*: [`api/v1/users`](https://cibertec-crud-users.onrender.com/api/v1/users)
+*USERS*: [`api/v1/users`](https://cibertec-crud-users.onrender.com/api/v1/users)
+*PRODUCTS*: [`api/v1/products`](https://cibertec-crud-users.onrender.com/api/v1/products)
 
 ## About
 
-This is a simple CRUD API built using Express.js and MongoDB for managing user data. The API provides endpoints to create, retrieve, update, and delete users in a MongoDB database, making it a perfect starting point for understanding RESTful APIs, Node.js, and MongoDB integration.
+This is a simple CRUD API built using Express.js and MongoDB for managing users and products data. The API provides endpoints to create, retrieve, update, and delete users in a MongoDB database, making it a perfect starting point for understanding RESTful APIs, Node.js, and MongoDB integration.
 
 ## Table of Contents
 
@@ -72,6 +73,11 @@ To test the API, you can use tools like [Postman](https://www.postman.com/) or [
 - **Update User**: Update user information (e.g., name, email, etc.).
 - **Delete User**: Delete a user from the database.
 - **MongoDB integration**: Data is stored and managed in a MongoDB database.
+
+- **Create Product**: Add new products to the database.
+- **Read Product**: Retrieve product information based on product ID.
+- **Update Product**: Update product information (e.g., name, description, price, etc.).
+- **Delete Product**: Delete a product from the database.
 
 ## API Endpoints
 
