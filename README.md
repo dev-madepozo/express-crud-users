@@ -1,6 +1,6 @@
-# Cibertec crud users
+# Express crud users & products
 
-This is a basic CRUD application for managing users and products, designed as part of the Cibertec Frontend course.
+This is a basic CRUD application for managing users and products, designed as part of a Frontend course.
 
 *USERS*: [`api/v1/users`](https://cibertec-crud-users.onrender.com/api/v1/users)
 *PRODUCTS*: [`api/v1/products`](https://cibertec-crud-users.onrender.com/api/v1/products)
@@ -155,7 +155,7 @@ The following API endpoints are available for `users`:
 
 ### 4. `PUT /api/v1/users/:userId`
 
-- **Description**: Update a user's information.
+- **Description**: Update the user's information.
 - **Request Body**:
     ```json
     {
@@ -194,7 +194,7 @@ The following API endpoints are available for `users`:
 
 The following API endpoints are available for `products`:
 
-### 1. 'POST /api/v1/products'
+### 1. `POST /api/v1/products`
 
 - **Description**: Create a new product.
 - **Request Body**: 
@@ -221,6 +221,100 @@ The following API endpoints are available for `products`:
             "createdAt": 2024-12-03T16:03:23.224+00:00,
             "updatedAt": 2024-12-03T16:03:23.224+00:00
         }
+    }
+    ```
+
+### 2. `GET /api/v1/products`
+
+- **Description**: Get a list of all products.
+- **Response**:
+    ```json
+    [
+        {
+            "name": "New TV",
+            "description": "Doe",
+            "price": 1999.99,
+            "stock": 10,
+            "category": "TV",
+            "id": "60c72bdf5f1b2c001f1f5c9f",
+            "createdAt": 2024-12-03T16:03:23.224+00:00,
+            "updatedAt": 2024-12-03T16:03:23.224+00:00
+        }
+    ]
+    ```
+
+### 3. `GET /api/v1/products/category/:categoryName`
+
+- **Description**: Get a list of all products by category.
+- **Response**:
+    ```json
+    [
+        {
+            "name": "New TV",
+            "description": "Doe",
+            "price": 1999.99,
+            "stock": 10,
+            "category": "TV",
+            "id": "60c72bdf5f1b2c001f1f5c9f",
+            "createdAt": 2024-12-03T16:03:23.224+00:00,
+            "updatedAt": 2024-12-03T16:03:23.224+00:00
+        }
+    ]
+    ```
+
+
+### 4. `GET /api/v1/products/:productId`
+
+- **Description**: Get a specific product by ID.
+- **Response**:
+    ```json
+    {
+        "name": "New TV",
+        "description": "Doe",
+        "price": 1999.99,
+        "stock": 10,
+        "category": "TV",
+        "id": "60c72bdf5f1b2c001f1f5c9f",
+        "createdAt": 2024-12-03T16:03:23.224+00:00,
+        "updatedAt": 2024-12-03T16:03:23.224+00:00
+    }
+    ```
+
+### 5. `PUT /api/v1/users/:userId`
+
+- **Description**: Update the product's information.
+- **Request Body**:
+    ```json
+    {
+        "name": "Sansumg UHD TV 65\"",
+    }
+    ```
+
+- **Response**:
+    ```json
+    {
+        "message": "Product updated successfully",
+        "user": {
+            "name": "Sansumg UHD TV 65\"",
+            "description": "Doe",
+            "price": 1999.99,
+            "stock": 10,
+            "category": "TV",
+            "id": "60c72bdf5f1b2c001f1f5c9f",
+            "createdAt": 2024-12-03T16:03:23.224+00:00,
+            "updatedAt": 2024-12-03T18:25:29.224+00:00
+        }
+    }
+    ```
+
+
+### 6. `DELETE /api/v1/product/:productId`
+
+- **Description**: Delete a product by ID.
+- **Response**:
+    ```json
+    {
+        "message": "Product deleted successfully"
     }
     ```
 

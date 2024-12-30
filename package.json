@@ -1,5 +1,5 @@
 {
-  "name": "cibertec-users-api",
+  "name": "express-users-api",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
@@ -11,13 +11,12 @@
     "express",
     "mongoose",
     "api",
-    "cibertec",
     "frontend"
   ],
   "author": "Manuel Del Pozo",
   "type": "module",
   "license": "MIT",
-  "description": "This is a basic CRUD application for managing users, designed as part of the Cibertec Frontend course.",
+  "description": "This is a basic CRUD application for managing users and products, designed as part of a Frontend course.",
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
