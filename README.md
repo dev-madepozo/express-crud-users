@@ -81,7 +81,7 @@ To test the API, you can use tools like [Postman](https://www.postman.com/) or [
 
 ## API Endpoints
 
-The following API endpoints are available:
+The following API endpoints are available for `users`:
 
 ### 1. `POST /api/v1/users`
 
@@ -191,6 +191,39 @@ The following API endpoints are available:
         "message": "User deleted successfully"
     }
     ```
+
+The following API endpoints are available for `products`:
+
+### 1. 'POST /api/v1/products'
+
+- **Description**: Create a new product.
+- **Request Body**: 
+    ```json
+    {
+        "name": "New TV",
+        "description": "Doe",
+        "price": 1999.99,
+        "stock": 10,
+        "category": "TV",
+    }
+    ```
+- **Response**:
+    ```json
+    {
+        "message": "Product was created successfully",
+        "user": {
+            "name": "New TV",
+            "description": "Doe",
+            "price": 1999.99,
+            "stock": 10,
+            "category": "TV",
+            "id": "60c72bdf5f1b2c001f1f5c9f",
+            "createdAt": 2024-12-03T16:03:23.224+00:00,
+            "updatedAt": 2024-12-03T16:03:23.224+00:00
+        }
+    }
+    ```
+
 
 ## Collaboration
 
