@@ -2,8 +2,8 @@
 
 This is a basic CRUD application for managing users and products, designed as part of a Frontend course.
 
-*USERS*: [`api/v1/users`](https://cibertec-crud-users.onrender.com/api/v1/users)
-*PRODUCTS*: [`api/v1/products`](https://cibertec-crud-users.onrender.com/api/v1/products)
+- *USERS*: [`api/v1/users`](https://cibertec-crud-users.onrender.com/api/v1/users)
+- *PRODUCTS*: [`api/v1/products`](https://cibertec-crud-users.onrender.com/api/v1/products)
 
 ## About
 
